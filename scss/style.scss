@@ -1,0 +1,110 @@
+$migris: #424242;
+$mibordo: #470024;
+$miceleste: #31bfae;
+
+
+@mixin estilotexto{
+font-family: 'Michroma', sans-serif;
+  font-size: 18px;
+  text-indent: 50px;
+	
+}
+
+@mixin titulos{
+	font-family: 'Gravitas One', cursive;
+    font-size: 2.6rem;
+    color: $migris;
+}
+
+@mixin texto-importante
+{
+	font-size: 2.3rem;
+	color: $mibordo;
+	font-family: 'Gravitas One', cursive;
+	font-weight: bold;
+	text-align:center;
+}
+
+@mixin cambiodecolor{
+    color: #fff;
+     transition: all 0.3s ease;
+     justify-content: center;
+	
+}
+
+h1{
+    font-family: 'Gravitas One', cursive;
+    font-size: 2.6rem;
+    color: $migris;
+}
+.titulo--quienessomos{
+  color: $mibordo;
+
+}
+
+.navbar{
+  background-color: $migris;
+}
+
+.texto{
+	font-family: 'Michroma', sans-serif;
+	font-size: 18px;
+}
+
+.texto--servicios{
+  font-family: 'Michroma', sans-serif;
+  font-size: 18px;
+  text-indent: 50px;
+}
+
+
+.footer__redes {
+  padding: 40px 0;
+  background-color: #dedede;
+
+}
+
+
+
+.fab{
+  padding: 20px;
+  font-size: 40px;
+  width: 50px;
+
+}
+
+.footer__redes-links{
+  text-decoration: grey;
+  color:grey;
+}
+
+.titulos-servicios{
+  color: #424242;
+  font-family: 'Gravitas One', cursive
+}
+
+h4{
+  font-family: 'Gravitas One', cursive;
+  font-size: 1.8rem;
+
+}
+
+h2{
+	@include titulos
+}
+
+.texto-equipos{
+	@include estilotexto
+}
+
+.h2__aviso{
+	@include texto-importante
+}
+
+div.color {
+    @include cambiodecolor
+}
+
+div.color:hover {
+    background:$miceleste ;
+}

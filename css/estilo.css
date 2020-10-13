@@ -1,0 +1,65 @@
+h1 {
+  font-family: 'Gravitas One', cursive;
+  font-size: 2.6rem;
+  color: #424242; }
+
+.titulo--quienessomos {
+  color: #470024; }
+
+.navbar {
+  background-color: #424242; }
+
+.texto {
+  font-family: 'Michroma', sans-serif;
+  font-size: 18px; }
+
+.texto--servicios {
+  font-family: 'Michroma', sans-serif;
+  font-size: 18px;
+  text-indent: 50px; }
+
+.footer__redes {
+  padding: 40px 0;
+  background-color: #dedede; }
+
+.fab {
+  padding: 20px;
+  font-size: 40px;
+  width: 50px; }
+
+.footer__redes-links {
+  text-decoration: grey;
+  color: grey; }
+
+.titulos-servicios {
+  color: #424242;
+  font-family: 'Gravitas One', cursive; }
+
+h4 {
+  font-family: 'Gravitas One', cursive;
+  font-size: 1.8rem; }
+
+h2 {
+  font-family: 'Gravitas One', cursive;
+  font-size: 2.6rem;
+  color: #424242; }
+
+.texto-equipos {
+  font-family: 'Michroma', sans-serif;
+  font-size: 18px;
+  text-indent: 50px; }
+
+.h2__aviso {
+  font-size: 2.3rem;
+  color: #470024;
+  font-family: 'Gravitas One', cursive;
+  font-weight: bold;
+  text-align: center; }
+
+div.color {
+  color: #fff;
+  transition: all 0.3s ease;
+  justify-content: center; }
+
+div.color:hover {
+  background: #31bfae; }
